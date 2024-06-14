@@ -1,0 +1,63 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+     <sly data-sly-call="${clientlib.all @ categories='sample.components.addauthor'}"/>
+</sly>
+                    <!-- Vertical Layout -->
+                    <div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header text-center">
+                                    <h2>
+                                        Add Article
+                                    </h2>
+                                </div>
+                                <div class="body" data-sly-use.formModel="core.src.main.java.com.aem.sample.core.models.AddAuthor">
+                                    <form class="user" method="POST" enctype="multipart/form-data" action="${formModel.actionType}">
+                                        <div class="row clearfix">
+                                            <div class="col-sm-6">
+                                                <div class="form-group form-float form-group-lg">
+                                                    <div class="form-line">
+                                                        <input type="text" name="fname" class="form-control" />
+                                                        <label class="form-label">Article Name</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group form-float form-group-lg">
+                                                    <div class="form-line">
+                                                        <input type="date" id="date" name="date" class="form-control" />
+                                                        <label class="form-label">Article Date</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group form-float form-group-lg">
+                                                    <div class="form-line">
+                                                        <input type="text" name="content" class="form-control" />
+                                                        <label class="form-label">Article Content</label>
+                                                    </div>
+                                                </div>
+                                            </div>                                          
+                                        </div>
+                                        <!-- #END# Comment Added -->
+                                        
+                                        <!-- #END# Comment 3 Added -->
+
+                                        
+										<hr>
+                                        <button type="submit" class="btn btn-primary">
+                                            Submit
+                                        </button>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #END# Comment Added to main -->
+                    <!-- #END# Comment Added -->
+                    <!-- #END# Vertical Layout -->
+
+
+
+
+

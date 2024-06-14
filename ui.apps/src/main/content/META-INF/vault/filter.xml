@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/sample/clientlibs"/>
+    <filter root="/apps/sample/components"/>
+    <filter root="/apps/sample/i18n"/>
+	<filter root="/apps/sample/templates"/>
+    <filter root="/apps/msm/sample_blueprint" mode="merge"/>
+</workspaceFilter>

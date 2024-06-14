@@ -1,0 +1,23 @@
+<div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header text-center">
+                                    <h2>
+                                        Article Listing
+                                    </h2>
+                                </div>
+                                <div class="body" data-sly-use.formModel="core.src.main.java.com.aem.sample.core.models.ArticleListingModel">
+                                    <div data-sly-list = "formModel.finalArray">
+                                    	<li>${item.articleName}</li>
+                                    </div>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+
+
+
+
