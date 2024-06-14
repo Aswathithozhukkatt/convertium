@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2024-06-14T16:21:01.154+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2024-06-14T16:21:01.154+05:30"
+        cq:template="/apps/sample/templates/tutorials-home"
+        cq:translationJob="[/content/projects/translation_projects/translation_projects/jcr:content/dashboard/gadgets/translationjob]"
+        cq:translationSourcePath="/content/sample/language-masters/en/add-authors"
+        cq:translationStatus="DRAFT"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Add Authors"
+        sling:resourceType="sample/components/structure/home">
+        <parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <addauthor
+                jcr:created="{Date}2022-01-06T02:02:37.794-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-01-29T07:52:22.126-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/custom/addauthor"
+                actionType="sample/components/form/actions/addauthor"
+                errorMessage="[,]"
+                externalServiceEndPointUrl="[,]"/>
+        </parsys>
+    </jcr:content>
+</jcr:root>

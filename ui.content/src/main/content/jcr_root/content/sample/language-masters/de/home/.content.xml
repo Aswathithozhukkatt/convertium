@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2024-06-14T16:21:01.135+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2024-06-14T16:21:01.135+05:30"
+        cq:template="/apps/sample/templates/tutorials-home"
+        cq:translationJob="[/content/projects/translation_projects/translation_projects/jcr:content/dashboard/gadgets/translationjob]"
+        cq:translationSourcePath="/content/sample/language-masters/en/home"
+        cq:translationStatus="DRAFT"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="sample/components/structure/home"/>
+</jcr:root>
